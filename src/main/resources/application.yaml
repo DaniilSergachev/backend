@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: wolwer123321
+  jpa:
+    properties.hibernate:
+      show-sql: true
+      hbm2ddl:
+        auto: update
+
+
