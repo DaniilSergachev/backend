@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://exchange_db:5432/exchange_db
     username: postgres
     password: wolwer123321
   jpa:
@@ -8,5 +8,6 @@ spring:
       show-sql: true
       hbm2ddl:
         auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 
